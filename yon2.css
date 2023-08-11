@@ -1,0 +1,44 @@
+.container {
+  width: 300px;
+  margin: 2px;
+  padding: 20px;
+ 
+}
+
+h1 {
+  text-align: center;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+label {
+  margin-top: 10px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+  padding: 5px;
+  border-radius: 3px;
+  border: 1px solid #ccc;
+}
+
+input[type="submit"] {
+  align-self: center;
+  width: 150px;
+  height: 50px;
+  padding: 10px;
+  margin-top: 10px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+input[type="submit"]:hover {
+  background-color: #555555;
+}
